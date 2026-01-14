@@ -1,13 +1,13 @@
 
-/* <1------------ GLOBAL FILE CSS -----------------------------------> */
+/* <1------------ EXTERNAL FILE CSS -----------------------------------> */
 
 body {
   background-color: black;
   color: white;
 }
 
-.container {
-  background-color: pink;
+.con-ext {
+  background-color: rgb(137, 1, 124);
   border: 2px solid black;
   padding: 10px;
   margin: 25px;  
