@@ -1,5 +1,6 @@
 import React from 'react'
 import Product from './components/Product';
+import Event from './components/Events';
 import Items from './components/Items';
 
 
@@ -13,7 +14,9 @@ const App = () => {
 
     return (
         <>
-            <Product
+        
+        <Event/>
+            {/* <Product
                 name="IPhone 20"
                 price={1500}
                 color="Red"
@@ -25,7 +28,7 @@ const App = () => {
                 Person = {person}
 
             />
-            <Items/>
+            <Items/> */}
             {/* <div>4+9</div>
             <div>Sum = {4 + 9}</div>
             <div>{person.name}</div>
