@@ -2,6 +2,7 @@ import React from 'react'
 import Product from './components/Product';
 import Event from './components/Events';
 import Items from './components/Items';
+import UseState from './components/UseState';
 
 
 // Main Parent File
@@ -14,8 +15,9 @@ const App = () => {
 
     return (
         <>
-        
-        <Event/>
+        <UseState/>
+       
+        {/* <Event/> */} 
             {/* <Product
                 name="IPhone 20"
                 price={1500}
